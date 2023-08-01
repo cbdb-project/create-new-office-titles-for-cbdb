@@ -35,15 +35,16 @@ for i in range(len(title_list)):
     office_id += 1
     office_id_str = str(office_id)
     office_pinyin = " ".join(lazy_pinyin(title_list[i]))
+    office_trans = title_trans_list[i]
     office_dy = dynasty_id_list[i]
     office_chn = title_list[i]
     office_source = source_list[i]
     office_type = office_type_list[i]
-    office_codes_sql_str = f"INSERT INTO OFFICE_CODES (c_office_id, c_dy, c_office_pinyin, c_office_chn, c_source) VALUES ({office_id_str}, {office_dy}, {office_pinyin}, {office_chn}, {office_source});"
+    office_codes_sql_str = f"INSERT INTO OFFICE_CODES (c_office_id, c_dy, c_office_pinyin, c_office_trans, c_office_chn, c_source) VALUES ('{office_id_str}', '{office_dy}', '{office_pinyin}', '{office_trans}', '{office_chn}', '{office_source}');"
     office_codes_sql_list.append(office_codes_sql_str)
-    office_code_type_rel_str = f"INSERT INTO OFFICE_CODE_TYPE_REL (c_office_id, c_office_tree_id) VALUES ({office_id_str}, {office_type});"
+    office_code_type_rel_str = f"INSERT INTO OFFICE_CODE_TYPE_REL (c_office_id, c_office_tree_id) VALUES ('{office_id_str}', '{office_type}');"
     office_type_sql_list.append(office_code_type_rel_str)
-    office_info_list.append([office_id, office_dy, office_pinyin, office_chn, office_source])
+    office_info_list.append([office_id, office_chn, office_dy, office_trans, office_pinyin, office_source])
 
 # Write files
 with open('output_sql.txt', 'w', encoding='utf-8') as f:
@@ -51,10 +52,8 @@ with open('output_sql.txt', 'w', encoding='utf-8') as f:
         f.write(office_codes_sql_list[i] + '\n')
         f.write(office_type_sql_list[i] + '\n')
 
-output_df = pd.DataFrame(office_info_list, columns=['c_office_id', 'c_dy', 'c_office_pinyin', 'c_office_chn', 'c_source'])
+output_df = pd.DataFrame(office_info_list, columns=['c_office_id', 'c_office_chn', 'c_dy', 'c_office_trans', 'c_office_pinyin', 'c_source'])
 output_df.to_csv('output.csv', index=False, encoding='utf-8')
 output_df.to_excel('output.xlsx', index=False, encoding='utf-8')
 
-
-
-    
+print('Done!')
