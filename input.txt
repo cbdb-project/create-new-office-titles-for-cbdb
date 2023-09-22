@@ -1,14 +1,2 @@
-僧錄司	The Central Buddhist Registry	明	19031301	僧錄司	18417
-僧錄司善世	Buddhist Patriarch of the Central Buddhist Registry	明	19031301	僧錄司	18417
-僧錄司左善世	Left Buddhist Patriarch of the Central Buddhist Registry	明	19031301	僧錄司	18417
-僧錄司右善世	Right Buddhist Patriarch of the Central Buddhist Registry	明	19031301	僧錄司	18417
-僧錄司闡教	Supervisory Monk for Buddhist Practices of the Central Buddhist Registry	明	19031301	僧錄司	18417
-僧錄司左闡教	Left Supervisory Monk for Buddhist Practices of the Central Buddhist Registry	明	19031301	僧錄司	18417
-僧錄司右闡教	Right Supervisory Monk for Buddhist Practices of the Central Buddhist Registry	明	19031301	僧錄司	18417
-僧錄司講經	Lecturing Monk of the Central Buddhist Registry	明	19031301	僧錄司	18417
-僧錄司左講經	Left Lecturing Monk of the Central Buddhist Registry	明	19031301	僧錄司	18417
-僧錄司右講經	Right Lecturing Monk of the Central Buddhist Registry	明	19031301	僧錄司	18417
-僧錄司覺義	Buddhist Rectifier of the Central Buddhist Registry	明	19031301	僧錄司	18417
-僧錄司左覺義	Left Buddhist Rectifier of the Central Buddhist Registry	明	19031301	僧錄司	18417
-僧錄司右覺義	Right Buddhist Rectifier of the Central Buddhist Registry	明	19031301	僧錄司	18417
-府學訓導	Assistant Instructor in a Prefectural Confucian School	清	20	清朝	65006
+土司	Aboriginal Office	清	200301	兵部	65175
+宣撫使/安撫使	Pacification Commission	清	200301	兵部	65175
