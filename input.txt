@@ -1,2 +1,12 @@
-土司	Aboriginal Office	清	200301	兵部	65175
-宣撫使/安撫使	Pacification Commission	清	200301	兵部	65175
+太淑人	The Second Level Honorific Title Granted to Mothers of Certain Officials	宋	150801	爵勛門	2229
+太碩人	The Third Level Honorific Title Granted to Mothers of Certain Officials	宋	150801	爵勛門	2229
+太令人	The Fourth Level Honorific Title Granted to Mothers of Certain Officials	宋	150801	爵勛門	2229
+太恭人	The Fifth Level Honorific Title Granted to Mothers of Certain Officials	宋	150801	爵勛門	2229
+太宜人	The Sixth Level Honorific Title Granted to Mothers of Certain Officials	宋	150801	爵勛門	2229
+太室人	The Seventh Level Honorific Title Granted to Mothers of Certain Officials	宋	150801	爵勛門	2229
+太安人	The Seventh Level Honorific Title Granted to Mothers of Certain Officials	宋	150801	爵勛門	2229
+太孺人	The Eighth Level Honorific Title Granted to Mothers of Certain Officials	宋	150801	爵勛門	2229
+室人	The Seventh Level Honorific Title Granted to Wives of Certain Officials	宋	150801	爵勛門	2229
+提舉逐路巡檢兵甲	Director of military training,defense against banditry and police inspector in several circuits	宋	15060107	監冶場務門	64848
+都大提點鑄錢等公事	Director of minting coins etc in several circuits	宋	15060107	監冶場務門	64848
+三司推勘公事	Investigator of resolving disputes about in the state marketplaces under the State Finance Commission	宋	15030105	三司門	64848

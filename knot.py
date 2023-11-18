@@ -1,15 +1,21 @@
 import pandas as pd
+
 # pip install pypinyin
 from pypinyin import lazy_pinyin
 from bs4 import BeautifulSoup
 import requests
 
 # Create dynasty dictionary
-dynasty_df = pd.read_csv('DYNASTIES.csv', encoding='utf-8', dtype=str)
-dynasty_dict = {dynasty_df['c_dynasty_chn'][i]: dynasty_df['c_dy'][i] for i in range(len(dynasty_df))}
+dynasty_df = pd.read_csv("DYNASTIES.csv", encoding="utf-8", dtype=str)
+dynasty_dict = {
+    dynasty_df["c_dynasty_chn"][i]: dynasty_df["c_dy"][i]
+    for i in range(len(dynasty_df))
+}
 
 # Read input file
-input_df = pd.read_csv('input.txt', delimiter='\t', header=None, encoding='utf-8', dtype=str)
+input_df = pd.read_csv(
+    "input.txt", delimiter="\t", header=None, encoding="utf-8", dtype=str
+)
 title_list = [title.strip() for title in input_df[0].tolist()]
 title_trans_list = [title_trans.strip() for title_trans in input_df[1].tolist()]
 dynasty_id_list = [dynasty_dict[dynasty] for dynasty in input_df[2].tolist()]
@@ -19,8 +25,9 @@ source_list = [source.strip() for source in input_df[5].tolist()]
 # Finding the latest office_id
 latest_office_id_url = "https://input.cbdb.fas.harvard.edu/officecodes/create"
 response = requests.get(latest_office_id_url)
-soup = BeautifulSoup(response.text, 'html.parser')
-office_id = int(soup.find('input', {'name': 'c_office_id'})['value'])
+soup = BeautifulSoup(response.text, "html.parser")
+office_id = int(soup.find("input", {"name": "c_office_id"})["value"])
+office_id -= 1
 print(office_id)
 
 # Create output
@@ -44,16 +51,32 @@ for i in range(len(title_list)):
     office_codes_sql_list.append(office_codes_sql_str)
     office_code_type_rel_str = f"INSERT INTO OFFICE_CODE_TYPE_REL (c_office_id, c_office_tree_id) VALUES ('{office_id_str}', '{office_type}');"
     office_type_sql_list.append(office_code_type_rel_str)
-    office_info_list.append([office_id, office_chn, office_dy, office_trans, office_pinyin, office_source])
+    office_info_list.append(
+        [office_id, office_chn, office_dy, office_trans, office_pinyin, office_source]
+    )
 
 # Write files
-with open('output_sql.txt', 'w', encoding='utf-8') as f:
+with open("output_sql.txt", "w", encoding="utf-8") as f:
     for i in range(len(office_codes_sql_list)):
-        f.write(office_codes_sql_list[i] + '\n')
-        f.write(office_type_sql_list[i] + '\n')
+        f.write(office_codes_sql_list[i] + "\n")
+        f.write(office_type_sql_list[i] + "\n")
 
-output_df = pd.DataFrame(office_info_list, columns=['c_office_id', 'c_office_chn', 'c_dy', 'c_office_trans', 'c_office_pinyin', 'c_source'])
-output_df.to_csv('output.csv', index=False, encoding='utf-8')
-output_df.to_excel('output.xlsx', index=False, encoding='utf-8')
+output_df = pd.DataFrame(
+    office_info_list,
+    columns=[
+        "c_office_id",
+        "c_office_chn",
+        "c_dy",
+        "c_office_trans",
+        "c_office_pinyin",
+        "c_source",
+    ],
+)
+output_df.to_csv("output.csv", index=False, encoding="utf-8")
+output_df.to_excel("output.xlsx", index=False, encoding="utf-8")
 
-print('Done!')
+print("Done!")
+
+# Samples
+# 土司	Aboriginal Office	清	200301	兵部	65175
+# 宣撫使/安撫使	Pacification Commission	清	200301	兵部	65175
