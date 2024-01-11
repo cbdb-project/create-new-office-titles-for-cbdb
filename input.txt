@@ -1,12 +1,4 @@
-太淑人	The Second Level Honorific Title Granted to Mothers of Certain Officials	宋	150801	爵勛門	2229
-太碩人	The Third Level Honorific Title Granted to Mothers of Certain Officials	宋	150801	爵勛門	2229
-太令人	The Fourth Level Honorific Title Granted to Mothers of Certain Officials	宋	150801	爵勛門	2229
-太恭人	The Fifth Level Honorific Title Granted to Mothers of Certain Officials	宋	150801	爵勛門	2229
-太宜人	The Sixth Level Honorific Title Granted to Mothers of Certain Officials	宋	150801	爵勛門	2229
-太室人	The Seventh Level Honorific Title Granted to Mothers of Certain Officials	宋	150801	爵勛門	2229
-太安人	The Seventh Level Honorific Title Granted to Mothers of Certain Officials	宋	150801	爵勛門	2229
-太孺人	The Eighth Level Honorific Title Granted to Mothers of Certain Officials	宋	150801	爵勛門	2229
-室人	The Seventh Level Honorific Title Granted to Wives of Certain Officials	宋	150801	爵勛門	2229
-提舉逐路巡檢兵甲	Director of military training,defense against banditry and police inspector in several circuits	宋	15060107	監冶場務門	64848
-都大提點鑄錢等公事	Director of minting coins etc in several circuits	宋	15060107	監冶場務門	64848
-三司推勘公事	Investigator of resolving disputes about in the state marketplaces under the State Finance Commission	宋	15030105	三司門	64848
+南京水軍左衞	Left Guard of Nanking Navy	明	303543	諸南京留守軍衛、所、監、院	2067
+鑄印局大使	Commissioner of Seals Service	明	19020903	禮部	2067
+判三司戶部理欠司	Supervisor of the Deficits Monitoring Office of the Census Bureau in the State Finance Commission	宋	15030105	三司門	2229
+徵事郎	One of Prestige Titles (Civil)（Rank 8 ，upper class，lower grade）	唐	060702	文散官門	24844
