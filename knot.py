@@ -73,7 +73,7 @@ output_df = pd.DataFrame(
     ],
 )
 output_df.to_csv("output.csv", index=False, encoding="utf-8")
-output_df.to_excel("output.xlsx", index=False, encoding="utf-8")
+output_df.to_excel("output.xlsx", index=False)
 
 print("Done!")
 
