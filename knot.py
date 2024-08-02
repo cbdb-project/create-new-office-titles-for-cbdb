@@ -34,6 +34,7 @@ print(office_id)
 office_codes_sql_list = []
 office_type_sql_list = []
 office_info_list = []
+senstive_chars = ["'", '"', ";"]
 
 # create sql string for office_codes table, the columns are:tts_sysno	c_office_id	c_dy	c_office_pinyin	c_office_chn	c_office_pinyin_alt	c_office_chn_alt	c_office_trans	c_office_trans_alt	c_source	c_pages	c_secondary_source_author	c_notes	c_category_1	c_category_2	c_category_3	c_category_4	c_office_id_old
 # but I only have: c_office_id	c_dy	c_office_pinyin	c_office_chn    c_source
@@ -43,6 +44,10 @@ for i in range(len(title_list)):
     office_id_str = str(office_id)
     office_pinyin = " ".join(lazy_pinyin(title_list[i]))
     office_trans = title_trans_list[i]
+    # annotate sensitive characters
+    for char in senstive_chars:
+        if char in office_trans:
+            office_trans = office_trans.replace(char, "\\" + char)
     office_dy = dynasty_id_list[i]
     office_chn = title_list[i]
     office_source = source_list[i]
