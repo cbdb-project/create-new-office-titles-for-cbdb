@@ -1,1 +1,3 @@
-特進	Lord Specially Advanced	明	1910	文武散階勛爵類	60745
+榷礬都務使	Commissioner of Alum	宋	1510	專使類	64847
+稻田都務使	Commissioner of Rice Field	宋	1510	專使類	64847
+榷鹽制置判官	Salt Monopoly Vice-commissioner	宋	1510	專使類	64847
