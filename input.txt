@@ -1,3 +1,4 @@
-榷礬都務使	Commissioner of Alum	宋	1510	專使類	64847
-稻田都務使	Commissioner of Rice Field	宋	1510	專使類	64847
-榷鹽制置判官	Salt Monopoly Vice-commissioner	宋	1510	專使類	64847
+堤河使	Commissioner of Dams and rivers	宋	0610	使職差遣	64847
+神衛左廂都指揮使	Commander-in-chief of the Left Inspired Guard Wing	宋	150401	禁軍三衙門	64847
+神衛右廂都指揮使	Commander-in-chief of the Right Inspired Guard Wing	宋	150401	禁軍三衙門	64847
+侍衛親軍馬軍司都指揮使	Commander-in-chief of the Metropolitan Cavalry	宋	150401	禁軍三衙門	64847
