@@ -1,5 +1,9 @@
 c_office_id,c_office_chn,c_dy,c_office_trans,c_office_pinyin,c_source
-803799,堤河使,15,Commissioner of Dams and rivers,di he shi,64847
-803800,神衛左廂都指揮使,15,Commander-in-chief of the Left Inspired Guard Wing,shen wei zuo xiang dou zhi hui shi,64847
-803801,神衛右廂都指揮使,15,Commander-in-chief of the Right Inspired Guard Wing,shen wei you xiang dou zhi hui shi,64847
-803802,侍衛親軍馬軍司都指揮使,15,Commander-in-chief of the Metropolitan Cavalry,shi wei qin jun ma jun si dou zhi hui shi,64847
+803803,布政使,20,Provincial Administration Commissioner,bu zheng shi,67822
+803804,書吏,20,Clerk,shu li,67822
+803805,經承,20,Assignee,jing cheng,67822
+803806,教坊司左司樂,20,Left Music Director,jiao fang si zuo si le,67822
+803807,教坊司右司樂,20,Right Music Director,jiao fang si you si le,67822
+803808,教坊司奉鑾,20,provider of carriage bells,jiao fang si feng luan,67822
+803809,翊國公,19,Duke of Yi,yi guo gong,67822
+803810,通議大夫,20,Grand Master for Thorough Council,tong yi dai fu,67822
