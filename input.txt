@@ -1,8 +1,1 @@
-布政使	Provincial Administration Commissioner	清	2007	地方機關	67822
-書吏	Clerk	清	20	清朝	67822
-經承	Assignee	清	2006	承理國政的行政機構	67822
-教坊司左司樂	Left Music Director	清	2005	掌管皇族宮廷事務帝後儀衛機構	67822
-教坊司右司樂	Right Music Director	清	2005	掌管皇族宮廷事務帝後儀衛機構	67822
-教坊司奉鑾	provider of carriage bells	清	2005	掌管皇族宮廷事務帝後儀衛機構	67822
-翊國公	Duke of Yi	明	19104302	明朝	67822
-通議大夫	Grand Master for Thorough Council	清	20	清朝	67822
+河通判	Assistant Perfect of rivers	清	2007	地方機關	2510
