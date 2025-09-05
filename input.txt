@@ -1,5 +1,1 @@
-中憲大夫	Grand Master Exemplar	清	2009	文武散階勛爵類	68002
-奉直大夫	Grand Master for Forthright Service (Hucker)	清	2009	文武散階勛爵類	4763
-太醫院吏目	Medical Secretary in the Imperial Academy of Medicine	清	2005	掌管皇族宮廷事務帝後儀衛機構	4763
-遊擊將軍	Mobile Corps Commander (Hucker)	清	2009	文武散階勛爵類	4763
-鎮同知	Vice Prefect of a Town	清	2007	地方機關	68002
+宗人府供事	Clerk in the Imperial Clan Court	清	200501	宗人府	4763
