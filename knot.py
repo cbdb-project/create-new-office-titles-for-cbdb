@@ -23,7 +23,7 @@ office_type_list = [office_type.strip() for office_type in input_df[3].tolist()]
 source_list = [source.strip() for source in input_df[5].tolist()]
 
 # Finding the latest office_id
-latest_office_id_url = "https://input.cbdb.fas.harvard.edu/officecodes/create"
+latest_office_id_url = "https://input.cbdb.fas.harvard.edu/codes/OFFICE_CODES/create"
 response = requests.get(latest_office_id_url)
 soup = BeautifulSoup(response.text, "html.parser")
 office_id = int(soup.find("input", {"name": "c_office_id"})["value"])
